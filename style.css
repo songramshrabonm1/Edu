@@ -12,7 +12,20 @@ body{
 }
 /* *************Font style added****************** */
 
-            /* ***********Navbar button media-query************** */
+
+
+
+            /* ***********carsoul image resize*************** */
+
+.car-quality{
+    height: 80vh;
+    
+}
+            /* ***********carsoul image resize*************** */
+
+
+
+            /* *********Navbar button media-query Added*********** */
 @media screen and (max-width:546px) {
     .btnn{
         display: none;
@@ -23,4 +36,4 @@ body{
         display: none;
     }
 }
-         /* ************Navbar button media-query************ */
+         /* ***********Navbar button media-query Added************ */
