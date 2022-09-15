@@ -6,8 +6,21 @@
 
 /* *************Font style added***************** */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,500&display=swap');
-/* *************Font style added****************** */
 
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* *************Font style added****************** */
+
+            /* ***********Navbar button media-query************** */
+@media screen and (max-width:546px) {
+    .btnn{
+        display: none;
+    }
+}
+@media screen and (min-width:991px) {
+    .btnn{
+        display: none;
+    }
+}
+         /* ************Navbar button media-query************ */
