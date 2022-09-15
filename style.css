@@ -3,7 +3,9 @@
     padding: 0px;   
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* *************Font style added***************** */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,500&display=swap');
 
@@ -26,6 +28,25 @@ body{
 .star>p>i{
     color: rgb(231, 170, 16);
 }
+
+            /* ***********footer section social logo design*************** */
+.footerr{
+    background-color: black;
+    width: 100%;
+    height: 40%;
+}
+.social-logo{
+    gap: 10px;
+}
+.social-logo>p>i{
+    font-size: 24px;
+    transition: transform 2s ease-in-out;
+}
+.social-logo>p:hover>i{
+    cursor: pointer;
+    transform: scale(1.25);
+}
+            /* ***********footer section social logo design*************** */
 
             /* *********Navbar button media-query Added*********** */
 @media screen and (max-width:546px) {
