@@ -38,4 +38,10 @@ body{
         display: none;
     }
 }
+@media screen and (max-width:768px) {
+    .company-logo{
+        display: none;
+    }
+    
+}
          /* ***********Navbar button media-query Added************ */
