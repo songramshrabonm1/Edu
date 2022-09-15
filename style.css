@@ -65,4 +65,16 @@ body{
     }
     
 }
+
+@media screen and (min-width:992px) {
+    .modalsss{
+        display: none;
+    } 
+}
+@media screen  and (max-width:992px) {
+    .modalss{
+        display: none ;
+    }
+    
+}
          /* ***********Navbar button media-query Added************ */
