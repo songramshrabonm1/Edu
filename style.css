@@ -23,7 +23,9 @@ body{
 }
             /* ***********carsoul image resize*************** */
 
-
+.star>p>i{
+    color: rgb(231, 170, 16);
+}
 
             /* *********Navbar button media-query Added*********** */
 @media screen and (max-width:546px) {
